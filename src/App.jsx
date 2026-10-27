@@ -3,6 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import confetti from 'canvas-confetti'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +29,8 @@ function App() {
             setCount((count) => count + 1);
             confetti({
               particleCount: 150,
-              spread: 80, origin: { y: 0.6}
+              spread: 80, 
+              origin: { y: 0.6 }
             });
           }
           }>
