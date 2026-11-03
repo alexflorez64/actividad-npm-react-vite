@@ -19,3 +19,6 @@
 
 No, si está excluída en .gitignore, no modifica directamente el repositorio Git si se borra una dependencia de esa carpeta.
 
+[Pagina web](https://alexflorez64.github.io/NPM-React-Vite/)
+
+[Repositorio](https://github.com/alexflorez64/actividad-npm-react-vite)
